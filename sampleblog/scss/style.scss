@@ -796,8 +796,8 @@ font-size: 42px;
 
 .right-sidebar{
 	/*margin-top:20px;*/
-	max-width: 678px;
-	width: 100%;
+	/*max-width: 670px;
+	width: 100%;*/
 	background-color: #ffffff;
 	/*margin: 0 auto;*/
 	height: 2305px;	
@@ -805,9 +805,9 @@ font-size: 42px;
 	float:right;
 
 & .right-sidebar__wrap{
-	max-width: 275px;
+	max-width: 278px;
 	width: 100%;
-	padding-left: 42px;
+	padding-left: 12px;
 }
 & .titile{
 color: #3f51b5;
@@ -883,6 +883,7 @@ line-height: 35px;
 	& .categories__number{		
 		font-weight: 700;		
 		float: right;
+		padding-right: 5px;
 	}
 }
 .subcribe{
