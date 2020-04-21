@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mobile Sample Blog</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width">
+	
+	<!-- <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"> -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+<body>
+<header class="header">	
+   <!-- Самое верхнее меню -->	   
+	<div class="Topmenu">   
+ 	 	<div class="wrap">	    		       		
+	    	<ul class="top-menu__list"> 
+	    		<li class="top-menu__item">
+		       		<a href="#" class="top-menu__link"><i class="material-icons">language</i><span class="top-menu__text">eng</span><i class="material-icons">keyboard_arrow_down</i></a>
+	    			</li>      		
+		       	<li class="top-menu__item">
+		       		<a href="" class="top-menu__link"><i class="material-icons">account_circle</i><span class="top-menu__text">sign in</span></a>
+		       	</li>   	
+	       	</ul>      		  
+    	</div>
+	</div>	
+    <!-- Конец Самое верхнее меню -->
+    <div class="Mainmenu">
+    	<div class="wrap"> 
+    		<div class="box-for-logo-menu">
+    			<div class="hamburger-menu">
+    				<input id="menu__toggle" type="checkbox" />
+    				<label class="menu__btn" for="menu__toggle">
+      					<span class="material-icons">menu</span>
+   				 	</label>		    	
+		    		<ul class="main-menu__list">
+		    			<li class="main-menu__item" >
+		    				<a href="index.html" class="main-menu__link main-menu__link_active"><span class="main-menu__text">home</span></a>				
+						</li>
+		    			<li class="main-menu__item">
+		    				<a href="" class="main-menu__link"><span class="main-menu__text">portfolio</span></a>	
+		    			</li>
+		    			<li class="main-menu__item">
+		    				<a href="" class="main-menu__link"><span class="main-menu__text">blog</span></a>	
+		    			</li>
+		    			<li class="main-menu__item">
+		    				<a href="" class="main-menu__link"><span class="main-menu__text">pages</span></a>	
+		    			</li>
+		    			<li class="main-menu__item">
+		    				<a href="" class="main-menu__link"><span class="main-menu__text">shop</span></a>	
+		    			</li>
+		    			<li class="main-menu__item">
+		    				<a href="" class="main-menu__link"><span class="main-menu__text">components</span></a>	
+		    			</li>
+		    			<li class="main-menu__item">
+		    				<a href="" class="main-menu__link"><span class="main-menu__text">features</span></a>	
+		    			</li>    			
+		    		</ul> 			    	
+		    	</div>
+    			<div class="logo">
+    				<a href="index.html" class="logo__link">logo</a>
+    			</div>     			
+		    	<div class="icons"> 
+			    	<div class="numbers">
+			    		<a href="" class="icons__link"><i class="material-icons">shopping_cart</i></a>
+			       		<i class="numbers__text">7</i>
+			     	</div>    			    			
+		    	</div>
+    		</div>    		
+    	</div> 
+    </div>    
+</header>
+
+<div class="sort">
+	<div class="wrap">   
+  		<div class="select-wrapper">
+    		<div class="select-arrow"></div>
+			    <select>    	
+			      <option class="sort__option">Sort blog</option>
+			      <option class="sort__option">All</option>
+			      <option class="sort__option">Photography</option>
+			      <option class="sort__option">Lifestyle</option>
+			      <option class="sort__option">Trip</option>
+			      <option class="sort__option">Inspiration</option>
+			    </select>
+  			</div> 
+		</div>		
+	</div>	
+</div>
+
+<section class="body">
+	<div class="wrap"> 
+		<div class="articles">
+			<!-- Первый пост -->
+			<div class="first-post">
+				<div class="post__video">
+					<img src="img/post_3.jpg" alt="First post" class="first-post__img">
+					<img src="img/masks.png" alt="" class="dark">					
+					<a href=""><span class="post__category">inspiration</span></a>
+					<div class="first-post__likes">
+						<span class="post__icons"><i class="material-icons">forum</i>7</span>
+						<span class="post__icons"><i class="material-icons">favorite_border</i>15</span>
+					</div>
+				</div>
+				<div class="post__description">
+					<a href=""><h2 class="post__title">Lorem ipsum dolor sit ame scing lorem aelit</h2></a>
+					<p class="post__subtitle">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu Nulla vel vehicula lorem ipsum. </p>
+				</div>
+				<div class="post__line"></div>
+				<div class="box-for-post-autor">
+					<div class="post-autor">
+						<div class="box">
+							<a href=""><img src="img/autor_3.png" alt="Autor" class="post-autor__img"></a>
+						</div>
+						<div class="box">
+							<a href=""><span class="post-autor__name">James Leman</span></a>
+	    					<time  datetime="2016-04-28T10:15" class="post-autor__data-time">Apri 28, 2016   10:15</time>
+	    				</div>
+					</div>
+					<div class="post-more">
+						<i class="material-icons">more_vert</i>
+					</div>
+				</div>				
+			</div>
+			<!-- Конец первый пост -->
+			
+			<!-- Второй пост -->
+			<div class="second-post">
+				<div class="post__video">
+					<img src="img/post_8.jpg" alt="Second post" class="second-post__img">
+					<img src="img/masks.png" alt="" class="dark">
+					<a href=""><span class="post__category">inspiration</span></a>
+					<div class="second-post__likes">
+						<span class="post__icons"><i class="material-icons">forum</i>7</span>
+						<span class="post__icons"><i class="material-icons">favorite_border</i>15</span>
+					</div>
+				</div>
+				<div class="post__description">
+					<a href=""><h2 class="post__title">Lorem ipsum sit amet ipsumo</h2></a>
+					<div class="post__line"></div>
+					<div class="box-for-post-autor">
+						<div class="post-autor">		
+							<div class="box">
+								<a href=""><span class="post-autor__name">James Leman</span></a>
+    							<time  datetime="2016-04-28T10:15" class="post-autor__data-time">Apri 28, 2016</time>
+    						</div>
+						</div>
+						<div class="post-more">
+							<i class="material-icons">more_vert</i>
+						</div>
+					</div>		
+				</div>			
+			</div>	
+			<!-- Конец второй пост -->
+			<!--Третие средние вертикальные посты  -->
+			<div class="third-posts">
+			<!-- Третий пост -->
+			<div class="third-post">
+				<div class="post__video">
+					<img src="img/post_10.jpg" alt="3 post" class="third-post__img">
+					<img src="img/masks.png" alt="" class="dark">					
+					<a href=""><span class="post__category">inspiration</span></a>
+					<div class="third-post__likes">
+						<span class="post__icons"><i class="material-icons">forum</i>7</span>
+						<span class="post__icons"><i class="material-icons">favorite_border</i>15</span>
+					</div>
+				</div>
+				<div class="post__description">
+					<a href=""><h2 class="post__title">Lorem ipsum sit amet </h2></a>	
+					<div class="post__line"></div>
+					<div class="box-for-post-autor">
+						<div class="post-autor">		
+							<div class="box">
+								<a href=""><span class="post-autor__name">James Leman</span></a>
+    							<time  datetime="2016-04-28T10:15" class="post-autor__data-time">Apri 28, 2016 </time>
+    						</div>
+						</div>
+						<div class="post-more">
+							<i class="material-icons">more_vert</i>
+						</div>
+					</div>		
+				</div>				
+			</div>
+			<!-- Конец Третий пост -->
+			<!-- Четвёртый пост -->
+			<div class="third-post third-post_small">
+				<div class="post__video">
+					<img src="img/post_12.jpg" alt="4 post" class="third-post__img">
+					<img src="img/masks.png" alt="" class="dark">
+					<a href=""><span class="post__category">inspiration</span></a>
+					<div class="third-post__likes">
+						<span class="post__icons"><i class="material-icons">forum</i>3</span>
+						<span class="post__icons"><i class="material-icons">favorite_border</i>15</span>
+					</div>
+				</div>					
+			</div>
+			<!-- Конец Четвёртый пост -->
+			<!-- Пятый пост -->
+			<div class="third-post third-post_small">
+				<div class="post__video">
+					<img src="img/post_5.jpg" alt="5 post" class="third-post__img">
+					<img src="img/masks.png" alt="" class="dark">
+					<a href=""><span class="post__category">inspiration</span></a>
+					<div class="third-post__likes">
+						<span class="post__icons"><i class="material-icons">forum</i>3</span>
+						<span class="post__icons"><i class="material-icons">favorite_border</i>15</span>
+					</div>
+				</div>					
+			</div>
+			<!-- Конец Пятый пост -->
+			<!-- Шестой пост -->
+			<div class="third-post">
+				<div class="post__video">
+					<img src="img/post_11.jpg" alt="6 post" class="third-post__img">
+					<img src="img/masks.png" alt="" class="dark">
+					<a href=""><span class="post__category">inspiration</span></a>
+					<div class="third-post__likes">
+						<span class="post__icons"><i class="material-icons">forum</i>3</span>
+						<span class="post__icons"><i class="material-icons">favorite_border</i>15</span>
+					</div>
+				</div>
+				<div class="post__description">
+					<a href=""><h2 class="post__title">Lorem ipsum sit amet</h2></a>	
+					<div class="post__line"></div>
+					<div class="box-for-post-autor">
+						<div class="post-autor">		
+							<div class="box">
+								<a href=""><span class="post-autor__name">James Leman</span></a>
+    							<time  datetime="2016-04-28T10:15" class="post-autor__data-time">Apri 28, 2016</time>
+    						</div>
+						</div>
+						<div class="post-more">
+							<i class="material-icons">more_vert</i>
+						</div>
+					</div>		
+				</div>				
+			</div>
+			<!-- Конец Шестой пост -->
+
+			</div>
+			<!--Конец Третие средние вертикальные посты  -->
+			<!-- Седьмой пост -->
+			<div class="first-post first-post_small">
+				<div class="post__video">
+					<img src="img/post_4.jpg" alt="7 post" class="first-post__img">
+					<img src="img/masks.png" alt="" class="dark">	
+					<img src="img/play.png" class="first-post__play">				
+					<a href=""><span class="post__category">inspiration</span></a>
+					<div class="first-post__likes">
+						<span class="post__icons"><i class="material-icons">forum</i>7</span>
+						<span class="post__icons"><i class="material-icons">favorite_border</i>15</span>
+					</div>
+				</div>
+			</div>
+			<!-- Конец Седьмой пост -->
+			<!-- Восьмой пост  -->
+			<div class="second-post">
+				<div class="post__video">
+					<img src="img/post_6.jpg" alt="8 post" class="second-post__img">
+					<img src="img/masks.png" alt="" class="dark">
+					<a href=""><span class="post__category">inspiration</span></a>
+					<div class="second-post__likes">
+						<span class="post__icons"><i class="material-icons">forum</i>7</span>
+						<span class="post__icons"><i class="material-icons">favorite_border</i>15</span>
+					</div>
+				</div>
+				<div class="post__description">
+					<a href=""><h2 class="post__title">Lorem ipsum sit amet ipsumo</h2></a>
+					<div class="post__line"></div>
+					<div class="box-for-post-autor">
+						<div class="post-autor">		
+							<div class="box">
+								<a href=""><span class="post-autor__name">James Leman</span></a>
+    							<time  datetime="2016-04-28T10:15" class="post-autor__data-time">Apri 28, 2016</time>
+    						</div>
+						</div>
+						<div class="post-more">
+							<i class="material-icons">more_vert</i>
+						</div>
+					</div>		
+				</div>			
+			</div>	
+			<!-- Конец Восьмой пост -->
+			<!-- Девятый пост  -->
+			<div class="second-post">
+				<div class="post__video">
+					<img src="img/flickr-widget_8.jpg" alt="9 post" class="second-post__img">
+					<img src="img/masks.png" alt="" class="dark">
+					<a href=""><span class="post__category">inspiration</span></a>
+					<div class="second-post__likes">
+						<span class="post__icons"><i class="material-icons">forum</i>7</span>
+						<span class="post__icons"><i class="material-icons">favorite_border</i>15</span>
+					</div>
+				</div>
+				<div class="post__description">
+					<a href=""><h2 class="post__title">Lorem ipsum sit amet ipsumo</h2></a>
+					<div class="post__line"></div>
+					<div class="box-for-post-autor">
+						<div class="post-autor">		
+							<div class="box">
+								<a href=""><span class="post-autor__name">James Leman</span></a>
+    							<time  datetime="2016-04-28T10:15" class="post-autor__data-time">Apri 28, 2016</time>
+    						</div>
+						</div>
+						<div class="post-more">
+							<i class="material-icons">more_vert</i>
+						</div>
+					</div>		
+				</div>			
+			</div>
+			<!-- Конец девятый пост -->			
+			<!-- Десятый пост -->
+			<div class="first-post">
+				<div class="post__video">
+					<img src="img/post_13.jpg" alt="10 post" class="first-post__img">
+					<img src="img/masks.png" alt="" class="dark">	
+					<img src="img/play.png" class="first-post__play">			
+					<a href=""><span class="post__category">inspiration</span></a>
+					<div class="first-post__likes">
+						<span class="post__icons"><i class="material-icons">forum</i>7</span>
+						<span class="post__icons"><i class="material-icons">favorite_border</i>15</span>
+					</div>
+				</div>
+				<div class="post__description">
+					<a href=""><h2 class="post__title">Lorem ipsum dolor sit ame scing lorem aelit</h2></a>
+					<p class="post__subtitle">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu Nulla vel vehicula lorem ipsum. </p>
+				</div>
+				<div class="post__line"></div>
+				<div class="box-for-post-autor">
+					<div class="post-autor">
+						<div class="box">
+							<a href=""><img src="img/autor_3.png" alt="Autor" class="post-autor__img"></a>
+						</div>
+						<div class="box">
+							<a href=""><span class="post-autor__name">James Leman</span></a>
+	    					<time  datetime="2016-04-28T10:15" class="post-autor__data-time">Apri 28, 2016   10:15</time>
+	    				</div>
+					</div>
+					<div class="post-more">
+						<i class="material-icons">more_vert</i>
+					</div>
+				</div>				
+			</div>
+			<!-- Конец десятый пост -->
+			<!-- 11 пост -->
+			<div class="first-post first-post_small">
+				<div class="post__video">
+					<img src="img/post_14.jpg" alt="11 post" class="first-post__img">
+					<img src="img/masks.png" alt="" class="dark">						
+					<a href=""><span class="post__category">inspiration</span></a>
+					<div class="first-post__likes">
+						<span class="post__icons"><i class="material-icons">forum</i>7</span>
+						<span class="post__icons"><i class="material-icons">favorite_border</i>15</span>
+					</div>
+				</div>
+			</div>
+			<!-- Конец 11 пост -->
+			<!-- 12 пост -->
+			<div class="first-post">
+				<div class="post__video">
+					<img src="img/post_15.jpg" alt="12 post" class="first-post__img">
+					<img src="img/masks.png" alt="" class="dark">				
+					<a href=""><span class="post__category">inspiration</span></a>
+					<div class="first-post__likes">
+						<span class="post__icons"><i class="material-icons">forum</i>7</span>
+						<span class="post__icons"><i class="material-icons">favorite_border</i>15</span>
+					</div>
+				</div>
+				<div class="post__description">
+					<a href=""><h2 class="post__title">Lorem ipsum dolor sit ame scing lorem aelit</h2></a>
+					<p class="post__subtitle">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu Nulla vel vehicula lorem ipsum. </p>
+				</div>
+				<div class="post__line"></div>
+				<div class="box-for-post-autor">
+					<div class="post-autor">
+						<div class="box">
+							<a href=""><img src="img/autor_3.png" alt="Autor" class="post-autor__img"></a>
+						</div>
+						<div class="box">
+							<a href=""><span class="post-autor__name">James Leman</span></a>
+	    					<time  datetime="2016-04-28T10:15" class="post-autor__data-time">Apri 28, 2016   10:15</time>
+	    				</div>
+					</div>
+					<div class="post-more">
+						<i class="material-icons">more_vert</i>
+					</div>
+				</div>				
+			</div>
+			<!-- Конец 12 пост -->
+			
+		</div>
+		  		
+	</div>
+</section>
+<section class="right-sidebar">
+	<div class="wrap">
+		<div class="box-for-caption">
+			<div class="logo">
+    				<a href="index.html" class="logo__link">logo</a>
+    			</div>  
+    			<div class="caption"> 
+    			<h3 class="caption__title">LOGO sit amet varius orci. Duis upse commodo elit sedamocid nisimole up stie, vitae fringilla justo fringilla. Lori Vestibulum libr portaman neque enia gravida elementum facilisis ipsum leonardo. Vestibulum loeuenim and libero, lobortis eu tortor ut, hendrerit  maxi tellus. Vivamus egestas massa leo, sit amet facilisis commodo. </h3>
+    			<a href="" class="caption__button">read more</a>
+    		</div>
+    		</div>
+  		<div class="categories">
+  			<h1 class="titile">categories</h1>		
+  			<ul class="categories__list">
+  				<li class="categories__item">
+  					<a href="" class="categories__link">Photography</a>	
+  					<span class="categories__number">195</span>  					
+  				</li>	  				
+  				<li class="categories__item">
+  					<a href="" class="categories__link">Illustration</a>
+  					<span class="categories__number">15</span> 	  					
+  				</li>	  				
+  				<li class="categories__item">
+  					<a href="" class="categories__link">Graphic Design</a>	
+  					<span class="categories__number">36</span>   					
+  				</li>	  				
+  				<li class="categories__item">
+  					<a href="" class="categories__link">Web design</a>
+  					<span class="categories__number">220</span> 
+  				</li>	  				
+  				<li class="categories__item">
+  					<a href="" class="categories__link">Videography</a>	
+  					<span class="categories__number">17</span>   					
+  				</li>
+  			</ul>
+  		</div>
+  		
+  		
+		<div class="tags">
+			<h1 class="titile">tags</h1>
+			<ul class="tags__list">
+				<li class="tags__item">
+					<a href="" class="tags__link">Photography</a>			
+				</li>
+				<li class="tags__item">
+					<a href="" class="tags__link">Webdesign</a>			
+				</li>
+				<li class="tags__item">
+					<a href="" class="tags__link">Youtube</a>			
+				</li>
+				<li class="tags__item">
+					<a href="" class="tags__link">Envato</a>			
+				</li>
+				<li class="tags__item">
+					<a href="" class="tags__link">Art</a>			
+				</li>
+				<li class="tags__item">
+					<a href="" class="tags__link">Themefotest</a>			
+				</li>
+				<li class="tags__item">
+					<a href="" class="tags__link">Illustration</a>			
+				</li>	
+				<li class="tags__item">
+					<a href="" class="tags__link">Photodune</a>			
+				</li>	
+				<li class="tags__item">
+					<a href="" class="tags__link">Pasco</a>			
+				</li>	
+				<li class="tags__item">
+					<a href="" class="tags__link">Art</a>			
+				</li>	
+				<li class="tags__item">
+					<a href="" class="tags__link">Codecanyon</a>			
+				</li>	
+				<li class="tags__item">
+					<a href="" class="tags__link">Videohive</a>			
+				</li>				
+			</ul>
+		</div>
+		<div class="flickr-widget">
+			<h1 class="titile">flickr</h1>
+			<div class="flickr-widget__box">
+				<img src="img/post-widget_4.jpg" alt="flickr-widget_1" class="flickr-widget__img">
+				<img src="img/post_5.jpg" alt="flickr-widget_2" class="flickr-widget__img">
+				<img src="img/post_3.jpg" alt="flickr-widget_3" class="flickr-widget__img">
+				<img src="img/post_7.jpg" alt="flickr-widget_4" class="flickr-widget__img">				
+			</div>
+		</div>
+	</div>		
+</section>
+<footer class="footer">
+	<div class="wrap">  
+		<ul class="footer-menu__list">       		
+       		<li class="footer-menu__item">
+       			<a href="https://www.facebook.com/" class="footer-menu__link"><i class="fa fa-facebook" aria-hidden="true" ></i></a>
+       		</li>
+       		<li class="footer-menu__item">
+       			<a href="https://twitter.com/" class="footer-menu__link"><i class="fa fa-twitter" aria-hidden="true" ></i></a>
+       		</li>
+       		<li class="footer-menu__item">
+       			<a href="https://vk.com/" class="footer-menu__link"><i class="fa fa-vk" aria-hidden="true" ></i></a>
+       		</li>
+       		<li class="footer-menu__item">
+       			<a href="https://www.pinterest.com/" class="footer-menu__link"><i class="fa fa-pinterest" aria-hidden="true" ></i></a>
+       		</li>
+       		<li class="footer-menu__item">
+				<a href="https://www.tumblr.com/" class="footer-menu__link"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+			</li>
+       		
+       		<li class="footer-menu__item">
+       			<a href="https://dribbble.com/" class="footer-menu__link"><i class="fa fa-dribbble" aria-hidden="true" ></i></a>
+       		</li>       		  		    
+		</ul>
+    	<span class="footer__text">© 2016 LOGO | All Rights Reserved</span> 	
+	</div>		
+</footer>
+</body>
+</html>
