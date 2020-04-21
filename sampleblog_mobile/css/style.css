@@ -6,7 +6,7 @@ body {
   font-family: sans-serif;
   max-width: 320px;
   width: 100%;
-  border: 1px solid green; }
+   }
 
 a {
   text-decoration: none;
@@ -65,7 +65,9 @@ ul {
   position: relative;
   width: 102%; }
   .box-for-logo-menu .hamburger-menu {
-    margin-left: -28px; }
+    margin-left: -28px; 
+    z-index: 1;
+}
   .box-for-logo-menu #menu__toggle {
     opacity: 0; }
   .box-for-logo-menu #menu__toggle:checked ~ .main-menu__list {
